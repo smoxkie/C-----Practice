@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 20vh;
+    /* background-image: url(./images/pexels-asad-photo-maldives-1268855.jpg); */
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.nav-container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./images/pexels-asad-photo-maldives-1268855.jpg);
+}
+svg{
+   margin-right: 340px; 
+}
+
+.place ul{
+    display: flex;
+}
+.place ul li{
+    margin: 20px;
+    margin-right: 90px;
+    font-size: 17px;
+    display: inline;
+}
+ul li a{
+    color: #fff;
+}
+ul li a:hover{
+    -webkit-text-stroke: 2px #306d58;
+    color: transparent;
+}
+.icon i{
+    color: #fff;
+    margin: 18px;
+    margin-left: 60px;
+    border: 2px solid #306d58;
+}
+.navBar {
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    text-align: center;
+   
+}
+.content h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 1000;
+    margin-top: 160px;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #306d58;
+    color: transparent;
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    
+    font-size: 24px;
+    border: 2px solid #306d58;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px ;
+}
+
+   
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 43px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column1 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  h3 {
+    font-size: 17px;
+    word-break: break-all;
+    padding: 16px;
+  }
+  p{
+    font-size: 17px;
+    margin-left: 20px;
+  }
+  .column2{
+    float: left;
+    width: 33.33%;
+    padding: 43px;
+  }
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .row2 .img:hover{
+    opacity: 1;
+  }
+  .column2 .img{
+    display: block;
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+  }

@@ -1,0 +1,19 @@
+th{
+    background-color: rgb(79 193 79);
+    color: white;
+    align-items: center;
+   
+}
+td{
+    background-color: rgb(153 221 153);
+    color: black;
+    align-items: centre;
+    padding: 8px;
+}
+.main_table{
+    height: 200px;
+    width: 50%;
+}
+  
+
+  

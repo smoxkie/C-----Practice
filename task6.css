@@ -1,0 +1,57 @@
+.container{
+    height: 160vh;
+    width: 100vw;
+    background-color: rgb(198, 137, 64);
+   
+}
+.header1{
+    height: 50%;
+    width: 50%;
+    background-color: #cebd85;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.footer{
+     float: right;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 4px;
+    background-color: #63601b;
+    padding: 20px;
+    margin: 20px;
+}
+.header{
+    background-color: #45420c;
+    color: black;
+}
+body{
+    background-image: url(./coffee.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+input[type=confirm]{
+    width: 90%;
+    background-color: rgb(15, 66, 43);
+    color: aliceblue;
+    padding: 14px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+}
+.header2{
+    text-align: center;
+}

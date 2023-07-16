@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 66px;
+    /* width: 100%; */
+    /* color: white; */
+    background-color: black;
+
+}
+li{
+  color: aliceblue;
+  justify-content: center;
+  display: inline-block;
+  padding-left: 20px 30px;
+  display: flex;
+}
+.content{
+    height: 50vh;
+    background-color: red;
+}

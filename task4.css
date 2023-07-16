@@ -1,0 +1,32 @@
+.container{
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10%;
+}
+.header3{
+    margin-left: 10%;
+}
+.input2{
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10%;
+}
+.forgotp{
+    margin-left: 50%;
+    font-size: smaller;
+    margin-bottom: 4px;
+    color: rgb(67, 30, 102);
+}
+.checkb{
+    margin-left: 10%;
+    margin-bottom: 25px;
+}
+.input3{
+    margin-left: 10%;
+    padding: 3% 35% 3% 35%;
+    margin-bottom: 5%;
+    color: beige;
+    border-color: rgb(28, 91, 70);
+}

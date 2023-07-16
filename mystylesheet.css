@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(57, 57, 72);
+    text-align: center;
+    background-image: url("flag.gif");
+}
+h1{
+    background-color: aqua;
+    border-style: solid;
+    border: 5px solid rgb(164, 108, 108);
+    border-radius: 5px;
+    padding: 50px;
+}

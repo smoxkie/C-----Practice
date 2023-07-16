@@ -1,0 +1,215 @@
+  *{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none;
+}
+body{
+    height:430vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 19, 19);
+    /* background: linear-gradient(rgb(35, 39, 51),rgb(200, 137, 27)); */
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    margin-top: 10px;
+    height: 90vh;
+    width: 90vw;
+    box-shadow: 10px 10px 5px rgb(25, 25, 25);
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:rgb(62, 60, 60);
+}
+.header .navbar a{
+    color: white;
+}
+.header .navbar a:hover{
+    color: blue;
+}
+.navbar{
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    margin: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.head{
+    font-size: 50px;
+}
+.info .about{
+    height: 95%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.header img{
+    height: 350px;
+    width: 230px;
+    border-bottom-left-radius: 40%;
+    border: 3px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns .hiremebtn{
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+a{
+    font-size: 22px;
+}
+a:hover{
+    /* background-color: rgb(108, 108, 229); */
+    color:black;
+    border-radius: 10%;
+}
+.cv{
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: 50px; 
+}
+.projectbtn{
+    font-size: 20px;
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    margin: 50px;
+}
+.description{
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.active{
+    width: 100px;
+    /* background-color: rgb(108, 108, 229); */
+    color: white;
+    border-radius: 5px;
+}
+.contact{
+    margin-bottom: 30px;
+    height: 90vh;
+    width: 95vw;
+    display:flex;
+    box-shadow: 10px 10px 5px rgb(35, 33, 33);
+
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(62, 60, 60);
+}
+.contactimg img{
+    height: 60vh;
+    width: 40vw;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(40, 38, 38);
+}
+.contact .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+    color: white;
+    width: 30vw;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);
+
+    background-color: rgb(55, 54, 54);
+}
+.contact h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.queryform{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+    /* align-items:; */
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.inputs{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer{
+    height: 20vh;
+    width: 95vw;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(36, 35, 35);
+    background-color: rgb(62, 60, 60);
+}
+.footer h1{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+     font-weight: 2000;
+     margin-bottom: 20px;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer ul li a{
+    /* background-color: antiquewhite; */
+    color: black;
+}
+.footer ul li a:hover{

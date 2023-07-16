@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ginto Nord, sans-serif;
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background-color: #F1F8FF;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-image: url(https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2022/01/DONE_Sunset-over-finnish-Pyhae-Luosto-Nationalpark_Credit_GettyImages-172412271.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(25 55 0 12%);
+    background-size: cover;
+}
+
+.Bvideo {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.navBar {
+    height: 15%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar>h3:hover {
+    font-size: 21px;
+}
+
+i {
+    cursor: pointer;
+}
+
+svg {
+    position: absolute;
+    left: 110px;
+    cursor: pointer;
+}
+
+#bar {
+    position: absolute;
+    right: 130px;
+}
+
+#heart {
+    position: absolute;
+    right: 185px;
+}
+
+#Mag {
+    position: absolute;
+    right: 235px;
+}
+
+i {
+    font-size: 20px;
+}
+
+h3 {
+    margin-left: 100px;
+    font-size: large;
+}
+
+.h02 {
+    font-size: 21px;
+    /* border-bottom: 0.4rem solid #BCE3BF; */
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.h01:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.h03:hover {
+    border-bottom: 0.4rem solid #BCE3BF;
+    transition: ease;
+}
+
+.heading {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    height: 15%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container2 {
+    height: 220vh;
+    width: 100vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    height: 100%;
+    width: 83%;
+    font-family: Ginto Nord, sans-serif;
+}
+
+.para2 {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 35px;
+}
+
+.vert1 {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    padding-left: 120px;
+}
+
+.vert2 {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.con {
+    border-top: 1px solid rgb(153, 153, 153);
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-right: 75px;
+
+}
+/* .picContent {
+    width: 100%;
+    height: 92%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+}
+
+.pic1 {
+    height: 33%;
+    width: 45%;
+    cursor: pointer;
+}
+
+.img1 {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px 8px 8px 0px;
+}
+
+.img11 {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px 8px 8px 0px;
+    transition: transform ease 0.5s;
+
+}
+
+.img11:hover {
+    transform: scale(1.1);
+}
+
+.pic1content {
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* .pic2 {
+    height: 60%;
+    width: 45%;
+    cursor: pointer;
+}
+
+.pic3 {
+    height: 63%;
+    width: 45%;
+    margin-top: -360px;
+    cursor: pointer;
+}
+
+.pic4 {
+    height: 35%;
+    width: 45%;
+    margin-top: -29px;
+    cursor: pointer;
+} */ */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .pic-content2{
+
+  }

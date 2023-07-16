@@ -1,0 +1,92 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url(./pexels-lukas-616401\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.container{
+  width: 350px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+  border: 2px solid rgba(102, 95, 95, 0.625);
+  background-color: #fff;
+}
+span{
+  color: black;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+header{
+  color: black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+i{
+  position: relative;
+  top: -31px;
+  left: 17px;
+  color: black;
+}
+.input-field{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.input{
+  height: 42px;
+  width: 87%;
+  border: 2px solid black;
+  outline: none;
+  color: black;
+  padding: 0 0 0 45px;
+  background: rgba(19 106 106/ 26%);
+}
+
+::-webkit-input-placeholder{
+  color: black;
+}
+.submit{
+  border: none;
+  border-radius: 45px;
+  font-size: 15px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  background: rgba(72, 47, 47, 0.532);
+  cursor: pointer;
+  transition: .3s;
+}
+.submit:hover{
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  color: black;
+  margin-top: 10px;
+}
+.left{
+  display: flex;
+}
+label a{
+  text-decoration: none;
+
+}

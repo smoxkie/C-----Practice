@@ -1,0 +1,14 @@
+.profile{
+    font-family: sans-serif;
+    text-align: center;
+    max-width: fit-content;
+    box-shadow: 0 0 10px rgba(rgb(159, 148, 148), green, blue, alpha);
+    padding: 20px;
+}
+.profile__image{
+    width: 80px;
+    height: 80px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}

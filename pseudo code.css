@@ -1,0 +1,11 @@
+p::first-letter{
+    color: rgba(192, 138, 67, 0.723);
+    font-size: 40px;
+}
+p::first-line{
+    font-size: 40px;
+    color: rgba(88, 88, 140, 0.355);
+}
+.name::after{
+    content: "-mishraji";
+}
